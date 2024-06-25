@@ -1,0 +1,46 @@
+.youtube-item {
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.youtube-item-image {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 350px;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.youtube-item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.youtube-item-footer {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.youtube-item-info {
+  text-align: start;
+  margin: auto 0;
+}
+
+.youtube-item-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.youtube-item-author-avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 100rem;
+}
+
+.youtube-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
