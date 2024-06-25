@@ -1,11 +1,6 @@
 import "../css/youtube.css";
 
-const YoutubeItem = (props: {
-  image: string | undefined;
-  avatar: string | undefined;
-  title: string;
-  author: string;
-}) => {
+const YoutubeItem = (props) => {
   return (
     <div className="youtube-item">
       <div className="youtube-item-image">
