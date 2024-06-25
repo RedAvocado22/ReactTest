@@ -1,9 +1,13 @@
 import { useState } from "react";
 
 const Toggle = () => {
-  const array = useState(false);
-  console.log(array);
-  return <div className="toggel"></div>;
+  const [on, setOn] = useState(false);
+  console.log(on);
+  return (
+    <div className="toggel" onClick={() => setOn(true)}>
+      Toggle
+    </div>
+  );
 };
 
 export default Toggle;
