@@ -2,12 +2,29 @@
   display: grid;
   width: 500px;
   height: 500px;
-  border: 1px solid #ccc;
+  gap: 20px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
 
 .game-cell {
-  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.is-x {
+  color: red;
+  box-shadow: red 0px 4px 12px;
+  transform: translateY(10px);
+}
+
+.is-o {
+  color: blue;
+  box-shadow: blue 0px 4px 12px;
+  transform: translateY(10px);
 }
