@@ -87,7 +87,7 @@ export default function SearchNew() {
   };
 
   return (
-    <div className="mx-auto mb-5 mt-5 w-2/4 rounded-lg bg-white p-5 shadow-md">
+    <div className="mx-auto mb-5 w-2/4 rounded-lg bg-white p-5 shadow-md">
       <div className="mb-5 flex gap-x-5">
         <input
           type="text"
@@ -99,7 +99,7 @@ export default function SearchNew() {
             })
           }
           onKeyDown={handleKeyDown}
-          className="block w-full rounded-md border border-gray-200 p-5 transition-all"
+          className="mt-5 block w-full rounded-md border border-gray-200 p-5 transition-all"
           placeholder="Search"
         />
         <button

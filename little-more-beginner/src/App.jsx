@@ -1,10 +1,10 @@
 import "./App.css";
-import Form from "./components/form/Form";
+import MovieSearch from "./components/movie-search/MovieSearch";
 
 function App() {
   return (
-    <div className="p-5">
-      <Form></Form>
+    <div className="mx-auto mt-5 h-[100vh] max-w-[1280px] rounded-lg p-5">
+      <MovieSearch></MovieSearch>
     </div>
   );
 }
