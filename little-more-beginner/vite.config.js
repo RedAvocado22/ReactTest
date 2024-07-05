@@ -18,7 +18,7 @@ function fixSourceMaps() {
           __dirname,
           "node_modules",
           ".vite",
-          "deps"
+          "deps",
         );
         if (fs.existsSync(nodeModulesPath)) {
           clearInterval(currentInterval);
