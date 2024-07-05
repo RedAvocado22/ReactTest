@@ -1,11 +1,13 @@
 import "./App.css";
 // import Photo from "./components/photo-load/Photo";
-import SearchNew from "./components/search-news/SearchNew";
+// import SearchNew from "./components/search-news/SearchNew";
+import Dropdown from "./components/dropdown/Dropdown";
 function App() {
   return (
-    <div>
+    <div className="p-5">
       {/* <Photo></Photo> */}
-      <SearchNew></SearchNew>
+      {/* <SearchNew></SearchNew> */}
+      <Dropdown></Dropdown>
     </div>
   );
 }
