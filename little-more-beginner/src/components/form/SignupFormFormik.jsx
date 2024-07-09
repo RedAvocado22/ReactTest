@@ -2,7 +2,7 @@ import { Formik, Form, useField } from "formik";
 import * as Yup from "yup";
 import PropTypes from "prop-types";
 
-const SignupFormV2 = () => {
+const SignupFormFormik = () => {
   return (
     <Formik
       initialValues={{
@@ -201,4 +201,4 @@ MyCheckBox.propTypes = {
   id: PropTypes.string,
   name: PropTypes.string,
 };
-export default SignupFormV2;
+export default SignupFormFormik;

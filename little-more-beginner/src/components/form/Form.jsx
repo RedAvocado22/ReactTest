@@ -2,7 +2,7 @@ import useHandleForm from "../hooks/useHandleForm";
 
 const Form = () => {
   const { values, handleValue } = useHandleForm({
-    fullname: "",
+    fullName: "",
     email: "",
     hobby: false,
   });
@@ -13,7 +13,7 @@ const Form = () => {
     <form className="flex gap-5" autoComplete="off">
       <input
         type="text"
-        name="fullname"
+        name="fullName"
         className="block w-full max-w-[450px] rounded-md border border-gray-200 p-5 transition-all"
         placeholder="Enter your name"
         onChange={handleValue}
