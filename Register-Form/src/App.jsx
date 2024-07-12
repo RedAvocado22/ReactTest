@@ -1,9 +1,9 @@
-import RegisterHook from "./components/form/RegisterHook";
+import RegisterFormik from "./components/form/RegisterFormik";
 
 export default function App() {
     return (
         <div>
-            <RegisterHook></RegisterHook>
+            <RegisterFormik></RegisterFormik>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import useClickOutSide from "../../hooks/useClickOutside";
+import useClickOutSide from "../../hooks/useClickOutSide";
 import { useWatch } from "react-hook-form";
 
 const DropdownHook = ({
