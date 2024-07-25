@@ -166,4 +166,5 @@ MovieItem.propTypes = {
   overview: PropTypes.string,
   vote_average: PropTypes.number,
 };
+
 export default MovieSearch;

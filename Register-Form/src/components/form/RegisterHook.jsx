@@ -126,7 +126,7 @@ const RegisterHook = () => {
                 )}
             </div>
             {/* Email */}
-            <div className="flex flex-col gap-3 mt-5    x">
+            <div className="flex flex-col gap-3 mt-5">
                 <label htmlFor="email" className="cursor-pointer font-semibold">
                     Email
                 </label>
